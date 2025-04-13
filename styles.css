@@ -86,7 +86,7 @@ html,body{
     bottom: 80px;
     left: 80%;
     /* border: 1px solid red; */
-    animation: move 3s linear infinite;
+    animation: move 21s linear infinite;
     background-image: url('obstacle.png');
     background-size: contain;
 }
@@ -98,7 +98,7 @@ html,body{
 
 @keyframes move {
     0% {
-        left: 100%;
+        left: 10000px;
     }
     100% {
         left: -100px;
